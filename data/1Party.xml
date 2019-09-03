@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml>
+    <parties lastUpdatedStamp="1567543910009" pseudoId="ZIRET" ownerPartyId="ORG_ZIZI_RETAIL" partyTypeEnumId="PtyOrganization" partyId="ORG_ZIZI_RETAIL">
+        <owner lastUpdatedStamp="1567543910009" pseudoId="ZIRET" ownerPartyId="ORG_ZIZI_RETAIL" partyTypeEnumId="PtyOrganization">
+            <owner lastUpdatedStamp="1567543910009" pseudoId="ZIRET" ownerPartyId="ORG_ZIZI_RETAIL" partyTypeEnumId="PtyOrganization"/>
+            <toRelationships lastUpdatedStamp="1567543910009" fromPartyId="EX_JOHN_DOE" toRoleTypeId="OrgInternal" partyRelationshipId="100001" relationshipTypeEnumId="PrtAgent" toPartyId="ORG_ZIZI_RETAIL"/>
+            <Owner-mantle.product.Product chargeShipping="Y" productName="Demo with Variants" pseudoId="DEMO_VAR" lastUpdatedStamp="1567543910677" productId="DEMO_VAR" productTypeEnumId="PtVirtual" ownerPartyId="ORG_ZIZI_RETAIL" returnable="Y"/>
+            <roles lastUpdatedStamp="1567543910009" roleTypeId="OrgInternal"/>
+            <Vendor-mantle.order.OrderPart orderId="100003" shipmentMethodEnumId="ShMthGround" telecomContactMechId="100000" postalContactMechId="100001" partTotal="0" customerPartyId="EX_JOHN_DOE" lastUpdatedStamp="1567544426585" facilityId="ZIRET_WH" isNewCustomer="Y" vendorPartyId="ORG_ZIZI_RETAIL" carrierPartyId="_NA_" statusId="OrderPlaced" orderPartSeqId="01"/>
+            <Vendor-mantle.order.OrderPart orderId="100004" shipmentMethodEnumId="ShMthGround" telecomContactMechId="100000" postalContactMechId="100001" partTotal="0" customerPartyId="EX_JOHN_DOE" lastUpdatedStamp="1567544508777" facilityId="ZIRET_WH" vendorPartyId="ORG_ZIZI_RETAIL" carrierPartyId="_NA_" statusId="OrderOpen" orderPartSeqId="01"/>
+            <Owner-mantle.facility.Facility facilityTypeEnumId="FcTpWarehouse" lastUpdatedStamp="1567543910677" facilityId="ZIRET_WH" pseudoId="ZIRET_WH" ownerPartyId="ORG_ZIZI_RETAIL" assetAllowIssueOverQoh="Y" facilityName="Ziziwork Retail Warehouse"/>
+            <Organization-mantle.ledger.config.ProductCategoryGlAccount lastUpdatedStamp="1567543910677" productCategoryId="PopcAllProducts" glAccountTypeEnumId="GatInventory" glAccountId="141300000" organizationPartyId="ORG_ZIZI_RETAIL"/>
+            <fromRelationships lastUpdatedStamp="1567543910009" fromPartyId="ORG_ZIZI_RETAIL" toRoleTypeId="OrgInternal" fromRoleTypeId="OrgInternal" fromDate="1265184000000" partyRelationshipId="ORG_ZIZI_RETAIL" relationshipTypeEnumId="PrtOrgRollup" toPartyId="ORG_ZIZI_CORP"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalPayment" contactMechId="ORG_ZIZI_RTL_PA"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalBilling" contactMechId="ORG_ZIZI_RTL_PA"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalShippingDest" contactMechId="ORG_ZIZI_RTL_SA"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalShippingOrigin" contactMechId="ORG_ZIZI_RTL_SA"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhonePayment" contactMechId="ORG_ZIZI_RTL_PT"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhoneBilling" contactMechId="ORG_ZIZI_RTL_PT"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhoneShippingOrigin" contactMechId="ORG_ZIZI_RTL_PT"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhoneShippingDest" contactMechId="ORG_ZIZI_RTL_PT"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailPayment" contactMechId="ORG_ZIZI_RTL_PE"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailBilling" contactMechId="ORG_ZIZI_RTL_BE"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailShippingDest" contactMechId="ORG_ZIZI_RTL_SE"/>
+            <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailShippingOrigin" contactMechId="ORG_ZIZI_RTL_SE"/>
+            <Organization-mantle.product.store.ProductStore lastUpdatedStamp="1567544395380" taxGatewayConfigId="LOCAL" defaultCurrencyUomId="USD" requireInventory="N" defaultLocale="en_US" organizationPartyId="ORG_ZIZI_RETAIL" storeName="Ziziwork Retail Store" productStoreId="POPC_DEFAULT" reservationOrderEnumId="AsResOrdFifoRec" wikiSpaceId="ZZW_RETAIL" inventoryFacilityId="ZIRET_WH"/>
+
+            <contents partyContentId="100000" contentDate="1567543910623" lastUpdatedStamp="1567543910009" partyContentTypeEnumId="PcntPaymentSignaturePrimary" contentLocation="component://webroot/screen/webroot/images/LincolnSignature.png"/>
+
+            <Owner-mantle.product.asset.Asset assetTypeEnumId="AstTpInventory" acquiredDate="1567544427772" quantityOnHandTotal="0" assetId="100000" availableToPromiseTotal="-1" receivedDate="1567544427772" lastUpdatedStamp="1567544426585" facilityId="ZIRET_WH" productId="MOQUICON_PT_2019" classEnumId="AsClsInventoryFin" ownerPartyId="ORG_ZIZI_RETAIL" statusId="AstAvailable" hasQuantity="Y"/>
+            <organization lastUpdatedStamp="1567543910009" organizationName="Ziziwork Retail &amp; Wholesale"/>
+
+            <Owner-mantle.account.method.PaymentMethod companyNameOnAccount="Ziziwork Retail" description="Demo Bank Account" telecomContactMechId="ORG_ZIZI_RTL_PT" postalContactMechId="ORG_ZIZI_RTL_PA" paymentMethodId="ZIRET_BA" lastUpdatedStamp="1567543910009" fromDate="1265184000000" ownerPartyId="ORG_ZIZI_RETAIL" paymentMethodTypeEnumId="PmtBankAccount"/>
+        </owner>
+        <toRelationships lastUpdatedStamp="1567543910009" fromPartyId="EX_JOHN_DOE" toRoleTypeId="OrgInternal" partyRelationshipId="100001" relationshipTypeEnumId="PrtAgent" toPartyId="ORG_ZIZI_RETAIL"/>
+
+        <roles lastUpdatedStamp="1567543910009" roleTypeId="OrgInternal"/>
+
+        <Vendor-mantle.order.OrderPart orderId="100004" shipmentMethodEnumId="ShMthGround" telecomContactMechId="100000" postalContactMechId="100001" partTotal="0" customerPartyId="EX_JOHN_DOE" lastUpdatedStamp="1567544508777" facilityId="ZIRET_WH" vendorPartyId="ORG_ZIZI_RETAIL" carrierPartyId="_NA_" statusId="OrderOpen" orderPartSeqId="01"/>
+        <Owner-mantle.facility.Facility facilityTypeEnumId="FcTpWarehouse" lastUpdatedStamp="1567543910677" facilityId="ZIRET_WH" pseudoId="ZIRET_WH" ownerPartyId="ORG_ZIZI_RETAIL" assetAllowIssueOverQoh="Y" facilityName="Ziziwork Retail Warehouse">
+            <Inventory-mantle.product.store.ProductStore lastUpdatedStamp="1567544395380" taxGatewayConfigId="LOCAL" defaultCurrencyUomId="USD" requireInventory="N" defaultLocale="en_US" organizationPartyId="ORG_ZIZI_RETAIL" storeName="Ziziwork Retail Store" productStoreId="POPC_DEFAULT" reservationOrderEnumId="AsResOrdFifoRec" wikiSpaceId="ZZW_RETAIL" inventoryFacilityId="ZIRET_WH"/>
+            <contactMechs fromDate="1567543910750" lastUpdatedStamp="1567543910677" contactMechPurposeId="PostalPrimary" contactMechId="ORG_ZIZI_RTL_SA"/>
+            <contactMechs fromDate="1567543910759" lastUpdatedStamp="1567543910677" contactMechPurposeId="PhonePrimary" contactMechId="ORG_ZIZI_RTL_PT"/>
+
+            <mantle.order.OrderPart orderId="100003" shipmentMethodEnumId="ShMthGround" telecomContactMechId="100000" postalContactMechId="100001" partTotal="0" customerPartyId="EX_JOHN_DOE" lastUpdatedStamp="1567544426585" isNewCustomer="Y" vendorPartyId="ORG_ZIZI_RETAIL" carrierPartyId="_NA_" statusId="OrderPlaced" orderPartSeqId="01"/>
+            <mantle.order.OrderPart orderId="100004" shipmentMethodEnumId="ShMthGround" telecomContactMechId="100000" postalContactMechId="100001" partTotal="0" customerPartyId="EX_JOHN_DOE" lastUpdatedStamp="1567544508777" vendorPartyId="ORG_ZIZI_RETAIL" carrierPartyId="_NA_" statusId="OrderOpen" orderPartSeqId="01"/>
+        </Owner-mantle.facility.Facility>
+        <Organization-mantle.ledger.config.ProductCategoryGlAccount lastUpdatedStamp="1567543910677" productCategoryId="PopcAllProducts" glAccountTypeEnumId="GatInventory" glAccountId="141300000" organizationPartyId="ORG_ZIZI_RETAIL"/>
+        <fromRelationships lastUpdatedStamp="1567543910009" fromPartyId="ORG_ZIZI_RETAIL" toRoleTypeId="OrgInternal" fromRoleTypeId="OrgInternal" fromDate="1265184000000" partyRelationshipId="ORG_ZIZI_RETAIL" relationshipTypeEnumId="PrtOrgRollup" toPartyId="ORG_ZIZI_CORP"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalPayment" contactMechId="ORG_ZIZI_RTL_PA"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalBilling" contactMechId="ORG_ZIZI_RTL_PA"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalShippingDest" contactMechId="ORG_ZIZI_RTL_SA"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PostalShippingOrigin" contactMechId="ORG_ZIZI_RTL_SA"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhonePayment" contactMechId="ORG_ZIZI_RTL_PT"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhoneBilling" contactMechId="ORG_ZIZI_RTL_PT"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhoneShippingOrigin" contactMechId="ORG_ZIZI_RTL_PT"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="PhoneShippingDest" contactMechId="ORG_ZIZI_RTL_PT"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailPayment" contactMechId="ORG_ZIZI_RTL_PE"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailBilling" contactMechId="ORG_ZIZI_RTL_BE"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailShippingDest" contactMechId="ORG_ZIZI_RTL_SE"/>
+        <contactMechs fromDate="1265184000000" lastUpdatedStamp="1567543910009" contactMechPurposeId="EmailShippingOrigin" contactMechId="ORG_ZIZI_RTL_SE"/>
+        <Organization-mantle.product.store.ProductStore lastUpdatedStamp="1567544395380" taxGatewayConfigId="LOCAL" defaultCurrencyUomId="USD" requireInventory="N" defaultLocale="en_US" organizationPartyId="ORG_ZIZI_RETAIL" storeName="Ziziwork Retail Store" productStoreId="POPC_DEFAULT" reservationOrderEnumId="AsResOrdFifoRec" wikiSpaceId="ZZW_RETAIL" inventoryFacilityId="ZIRET_WH">
+            <mantle.order.OrderHeader enteredByPartyId="EX_JOHN_DOE" salesChannelEnumId="ScWeb" orderId="100003" orderRevision="5" visitId="100101" placedDate="1567544426680" lastUpdatedStamp="1567544426585" entryDate="1567544401458" grandTotal="0" currencyUomId="USD" statusId="OrderPlaced"/>
+            <mantle.order.OrderHeader enteredByPartyId="EX_JOHN_DOE" salesChannelEnumId="ScWeb" orderId="100004" orderRevision="4" visitId="100101" lastUpdatedStamp="1567544508777" entryDate="1567544501882" grandTotal="0" currencyUomId="USD" statusId="OrderOpen"/>
+            <mantle.product.store.ProductStorePromotion serviceRegisterId="BuyGetDiscount" lastUpdatedStamp="1567543910677" sequenceNum="10" requireCode="Y" useLimitPerCustomer="4" useLimitPerOrder="2" useLimitPerPromotion="10" storePromotionId="PopcBuyGet" itemDescription="Buy 1 Get 1 Half Off"/>
+            <mantle.product.store.ProductStorePromotion serviceRegisterId="NewCustomerDiscount" lastUpdatedStamp="1567543910677" sequenceNum="99" storePromotionId="PopcNewCustomer" itemDescription="20% Discount for New Customers"/>
+            <shippingGateways lastUpdatedStamp="1567543910677" carrierPartyId="_NA_" shippingGatewayConfigId="NA_LOCAL"/>
+            <mantle.product.store.ProductStoreWikiContent fromDate="1265184000000" lastUpdatedStamp="1567543910677" contentTypeEnumId="PsctFooterTemplateServer" spaceTypeEnumId="PstTmpSrv" pagePath="server/footer" storeWikiContentId="POPCD_SRV_FOOTER"/>
+            <mantle.product.store.ProductStoreWikiContent fromDate="1265184000000" lastUpdatedStamp="1567543910677" contentTypeEnumId="PsctFooterTemplate" spaceTypeEnumId="PstTmpClt" pagePath="client/footer" storeWikiContentId="POPCD_CLT_FOOTER"/>
+            <mantle.product.ProductPrice priceTypeEnumId="PptCurrent" minQuantity="1" price="16.99" pricePurposeEnumId="PppPurchase" lastUpdatedStamp="1567543910677" productId="DEMO_1_1" productPriceId="DEMO_1_1_CTL" thruDate="1577865600000" fromDate="1357027200000" priceUomId="USD"/>
+            <mantle.product.ProductPrice priceTypeEnumId="PptCurrent" minQuantity="1" price="0" pricePurposeEnumId="PppPurchase" lastUpdatedStamp="1567544117298" productId="MOQUICON_PT_2019" productPriceId="MOQUICON_PTP_2019" fromDate="1567544100000" priceUomId="USD"/>
+            <mantle.product.ProductPrice priceTypeEnumId="PptCurrent" minQuantity="1" price="0" pricePurposeEnumId="PppPurchase" lastUpdatedStamp="1567544150178" productId="MOQUICON_VT_2019" productPriceId="MOQUICON_VTP" fromDate="1567544100000"/>
+            <mantle.product.store.ProductStoreWikiSpace fromDate="1265184000000" lastUpdatedStamp="1567543910677" storeWikiSpaceId="POPCD_TMP_SRV" spaceTypeEnumId="PstTmpSrv" wikiSpaceId="ZZWR_TMP"/>
+            <mantle.product.store.ProductStoreWikiSpace fromDate="1265184000000" lastUpdatedStamp="1567543910677" storeWikiSpaceId="POPCD_TMP_CLT" spaceTypeEnumId="PstTmpClt" wikiSpaceId="ZZWR_TMP"/>
+            <paymentGateways paymentInstrumentEnumId="PiCreditCard" lastUpdatedStamp="1567543910677" paymentGatewayConfigId="TEST_APPROVE"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcHome" storeCategoryTypeEnumId="PsctHomePage"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcBrowseRoot" storeCategoryTypeEnumId="PsctBrowseRoot"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcAllProducts" storeCategoryTypeEnumId="PsctSearch"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcAllProducts" storeCategoryTypeEnumId="PsctViewAllow"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcAllProducts" storeCategoryTypeEnumId="PsctPurchaseAllow"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcDeals" storeCategoryTypeEnumId="PsctPromotions"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcNew" storeCategoryTypeEnumId="PsctNewProducts"/>
+            <categories fromDate="1265184000000" lastUpdatedStamp="1567543910677" productCategoryId="PopcFeatured" storeCategoryTypeEnumId="PsctFeatured"/>
+            <mantle.product.ProductReview lastUpdatedStamp="1432675690534" productId="DEMO_1_2" statusId="PrvwApproved" postedDateTime="1432675690547" postedAnonymous="N" productReviewId="100001" productRating="5" userId="EX_JOHN_DOE" productReview="Amazing product !!"/>
+            <mantle.product.ProductReview lastUpdatedStamp="1432675690534" productId="DEMO_1_2" statusId="PrvwApproved" postedDateTime="1432675690547" postedAnonymous="Y" productReviewId="100002" productRating="3" userId="_NA_" productReview="I like it ..."/>
+        </Organization-mantle.product.store.ProductStore>
+
+        <Owner-mantle.product.asset.Asset assetTypeEnumId="AstTpEquipment" depreciationTypeEnumId="DtpStraightLine" acquireCost="4000" acquiredDate="1265184000000" assetId="EQUIP_AB4_1" receivedDate="1265184000000" lastUpdatedStamp="1567543910677" serialNumber="1234" facilityId="ZIRET_WH" productId="EQUIP_AB4" classEnumId="AsClsMfgEquip" acquireCostUomId="USD" ownerPartyId="ORG_ZIZI_RETAIL" statusId="AstAvailable" hasQuantity="N" assetName="Assembly Bot 4 1234" expectedEndOfLife="1577865600000"/>
+        <Owner-mantle.product.asset.Asset assetTypeEnumId="AstTpEquipment" depreciationTypeEnumId="DtpStraightLine" acquireCost="4000" acquiredDate="1265184000000" assetId="EQUIP_AB4_2" receivedDate="1265184000000" lastUpdatedStamp="1567543910677" serialNumber="2345" facilityId="ZIRET_WH" productId="EQUIP_AB4" classEnumId="AsClsMfgEquip" acquireCostUomId="USD" ownerPartyId="ORG_ZIZI_RETAIL" statusId="AstAvailable" hasQuantity="N" assetName="Assembly Bot 4 2345" expectedEndOfLife="1577865600000"/>
+        <Owner-mantle.product.asset.Asset assetTypeEnumId="AstTpInventory" acquiredDate="1567544427772" quantityOnHandTotal="0" assetId="100000" availableToPromiseTotal="-1" receivedDate="1567544427772" lastUpdatedStamp="1567544426585" facilityId="ZIRET_WH" productId="MOQUICON_PT_2019" classEnumId="AsClsInventoryFin" ownerPartyId="ORG_ZIZI_RETAIL" statusId="AstAvailable" hasQuantity="Y">
+            <details lastUpdatedStamp="1567544426585" productId="MOQUICON_PT_2019" assetReservationId="100000" assetDetailId="100000" availableToPromiseDiff="-1" effectiveDate="1567544427772"/>
+            <reservations orderItemSeqId="01" lastUpdatedStamp="1567544426585" reservedDate="1567544427772" quantity="1" productId="MOQUICON_PT_2019" sequenceNum="0" orderId="100003" quantityNotIssued="1" assetReservationId="100000" quantityNotAvailable="1" reservationOrderEnumId="AsResOrdFifoRec"/>
+        </Owner-mantle.product.asset.Asset>
+        <organization lastUpdatedStamp="1567543910009" organizationName="Ziziwork Retail &amp; Wholesale">
+            <ownerFacilities facilityTypeEnumId="FcTpWarehouse" lastUpdatedStamp="1567543910677" facilityId="ZIRET_WH" pseudoId="ZIRET_WH" ownerPartyId="ORG_ZIZI_RETAIL" assetAllowIssueOverQoh="Y" facilityName="Ziziwork Retail Warehouse"/>
+            <mantle.party.Party lastUpdatedStamp="1567543910009" pseudoId="ZIRET" ownerPartyId="ORG_ZIZI_RETAIL" partyTypeEnumId="PtyOrganization"/>
+        </organization>
+
+        <Owner-mantle.account.method.PaymentMethod companyNameOnAccount="Ziziwork Retail" description="Demo Bank Account" telecomContactMechId="ORG_ZIZI_RTL_PT" postalContactMechId="ORG_ZIZI_RTL_PA" paymentMethodId="ZIRET_BA" lastUpdatedStamp="1567543910009" fromDate="1265184000000" ownerPartyId="ORG_ZIZI_RETAIL" paymentMethodTypeEnumId="PmtBankAccount">
+            <mantle.account.method.PaymentMethodFileType lastUpdatedStamp="1567543910009" systemMessageTypeId="DemoZiretPosPay" fileTypeEnumId="PmftZionsBankCsv" systemMessageRemoteId="DemoZiretBankSftp"/>
+            <mantle.account.method.PaymentMethodFileType lastUpdatedStamp="1567543910009" systemMessageTypeId="DemoZiretNacha" fileTypeEnumId="PmftNacha" systemMessageRemoteId="DemoZiretBankSftp"/>
+            <mantle.account.method.PaymentMethodFileType lastUpdatedStamp="1567543910009" systemMessageTypeId="DemoZiretOfx" fileTypeEnumId="PmftOfx" systemMessageRemoteId="DemoZiretBankSftp"/>
+            <mantle.account.method.PaymentMethodFileType lastUpdatedStamp="1567543910009" systemMessageTypeId="DemoZiretBai2" fileTypeEnumId="PmftBai2" systemMessageRemoteId="DemoZiretBankSftp"/>
+            <bankAccount posPayFormatEnumId="PmftZionsBankCsv" lastUpdatedStamp="1567543910009" nachaEntryDescription="Operations" nachaImmedDest="123456789" lastCheckNumber="1000" bankName="Demo Bank" typeEnumId="BatChecking" accountNumber="54321" nachaImmedOrig="000054321" routingNumber="123456789" nachaCompanyId="54321"/>
+        </Owner-mantle.account.method.PaymentMethod>
+    </parties>
